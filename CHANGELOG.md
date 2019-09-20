@@ -3,14 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased](https://github.com/googlemaps/google-maps-services-java/compare/v0.10.0...HEAD)
+### Changed
+- deprecation warning for place fields: `alt_id`, `id`, `reference`, and `scope`. Read more about this at https://developers.google.com/maps/deprecations.
 
-### Merged
+### Added
 
 - add github issue templates [`#595`](https://github.com/googlemaps/google-maps-services-java/pull/595)
 - Include plus_code in PlaceDetailsRequest.FieldMask [`#594`](https://github.com/googlemaps/google-maps-services-java/pull/594)
-
-### Commits
-
 - add subfields to mask values for place details request [`0bd8211`](https://github.com/googlemaps/google-maps-services-java/commit/0bd82115665e4ae52957a83cef3aa1f4c9bc81b6)
 
 ## [v0.10.0](https://github.com/googlemaps/google-maps-services-java/compare/v0.9.4...v0.10.0) - 2019-08-27
